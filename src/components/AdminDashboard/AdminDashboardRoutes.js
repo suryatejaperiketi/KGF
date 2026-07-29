@@ -1,13 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Student from "../Pages/Student";
-import Agriculture from "../Pages/Agriculture";
-import BusinessDashboard from "../Pages/BusinessDashboard.js";
-import Others from "../Pages/Others";
-import Events from "../Landing/Events";
-import BloodDonateDashboard from "../Pages/BloodDonateDashboard.js";
-import DEvents from "../Pages/DEvents";
-import ViewJob from "../Pages/ViewJob";
 import AdminDashboardHome from "./AdminDashboardHome";
 import AdminEvents from "../Pages/AdminEvents";
 import Telangana from "../Pages/Telangana";

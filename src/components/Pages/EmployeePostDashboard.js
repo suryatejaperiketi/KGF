@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/EmployeePostDashboard.css";
-import { TiArrowBack } from "react-icons/ti";
 import { LuArrowBigLeft } from "react-icons/lu";
 import { useNavigate } from "react-router-dom";
 

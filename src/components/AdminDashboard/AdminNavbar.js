@@ -14,7 +14,7 @@ import profilePic from "../../assets/Aboutus.png";
 function AdminNavbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [setMenuOpen] = useState(false);
   const navigate = useNavigate();
  
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);

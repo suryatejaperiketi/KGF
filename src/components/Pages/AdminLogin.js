@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import loginimage from "../../assets/loginn.png";
 import "../Styles/AdminLogin.css";
 import { FcGoogle } from "react-icons/fc";
-import { toast, ToastContainer } from "react-toastify";
+import { toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function AdminLogin({onClose}) {
@@ -12,7 +12,7 @@ function AdminLogin({onClose}) {
   /* === LOGIN STATES === */
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [captcha, setCaptcha] = useState({ a: 2, b: 3 });
+  const [captcha] = useState({ a: 2, b: 3 });
   const [userInput, setUserInput] = useState("");
   
 

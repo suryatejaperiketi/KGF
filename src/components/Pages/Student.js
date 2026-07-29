@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/studentjobs.css";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import joblogoimg from "../../assets/ysk-logo.png";
 import { FaLocationDot } from "react-icons/fa6";

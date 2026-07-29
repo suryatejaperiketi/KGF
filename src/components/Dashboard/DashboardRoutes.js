@@ -5,7 +5,6 @@ import Student from "../Pages/Student";
 import Agriculture from "../Pages/Agriculture";
 import BusinessDashboard from "../Pages/BusinessDashboard";
 import Others from "../Pages/Others";
-import Events from "../Landing/Events";
 import BloodDonateDashboard from "../Pages/BloodDonateDashboard";
 import DEvents from "../Pages/DEvents";
 import ViewJob from "../Pages/ViewJob";

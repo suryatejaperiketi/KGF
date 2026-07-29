@@ -13,15 +13,7 @@ import OthersMembership from "./OthersMembership.js";
 function StudentMembership({closeMembership}) {
   const [residency, setResidency] = useState("In India");
   const [occupation, setOccupation] = useState("");
-  const [popUp, setPopUp] = useState(false)
 
-  function openPopup() {
-  return setPopUp(true)
-}
-
-function closePopup() {
-  return setPopUp(false)
-}
 
   return (
     <>

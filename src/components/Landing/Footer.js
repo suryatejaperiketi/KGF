@@ -3,14 +3,12 @@ import Footerphone from "../../assets/footerphone.png";
 import { IoCallSharp, IoLocationSharp } from "react-icons/io5";
 import { MdMarkEmailRead } from "react-icons/md";
 import Logo from "../../assets/Logo.png";
-import Getintouch from "./Getintouch";
 import getInTouchImg from "../../assets/getintouch.png";
 import { useNavigate } from "react-router-dom";
 
 import playstore from "../../assets/playstore.png";
 import appstore from "../../assets/applestore.png";
 
-import pic1 from "../../assets/linkedin.png";
 import pic2 from "../../assets/facebook.png";
 import pic3 from "../../assets/twitter.png";
 import pic4 from "../../assets/instagram.png";
@@ -104,7 +102,6 @@ const navigate = useNavigate()
               <h5>Follow Us</h5>
 
               <div className="social-icons">
-                <a href="#"><img src={pic1} alt="linkein"/></a>
                 <a href="https://www.facebook.com/kammaglobalfederation"><img src={pic2} alt="facebook"/></a>
                 <a href="https://x.https://x.com/KammaGlobalKGFcom/KammaGlobalKGF"><img src={pic3} alt="x" /></a>
                 <a href="https://www.instagram.com/kammaglobalfederationkgf/"><img src={pic4} alt="instagram" /></a>

@@ -3,13 +3,9 @@ import { NavLink } from "react-router-dom";
 import "../Styles/Sidebar.css";
 
 function Sidebar() {
-  const [openMenus, setOpenMenus] = useState({});
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed] = useState(false);
 
-  const toggleMenu = (menu) => {
-    setOpenMenus((prev) => ({ ...prev, [menu]: !prev[menu] }));
-  };
-
+  
   return (
     <div className={`admin-sidebar ${isCollapsed ? "collapsed" : ""}`}>
       {/* HEADER */}

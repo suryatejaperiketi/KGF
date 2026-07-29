@@ -1,10 +1,7 @@
 import React from "react";
-import OutOfIndia from "./OutOfIndia";
-import NonResident from "./NonResident";
-import { useState } from "react";
 
 function OthersMembership() {
-  const [residency, setResidency] = useState("In India");
+
   return (
     <>
       <form>

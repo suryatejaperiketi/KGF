@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../../assets/Logo.png";
 import "../Styles/NavbarSection.css";
 import { LuLogIn } from "react-icons/lu";
 import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import { useRef, useEffect, useState } from "react";
 import StudentMembership from "../Membership/StudentMembership.js";
-import { Navbar, Nav, Button, Modal, Container } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 // import Login from "../Pages/UserLogin.js";
 import AdminLogin from "../Pages/AdminLogin";
 import UserLogin from "../Pages/UserLogin.js";
@@ -329,7 +328,6 @@ function NavbarSection() {
                 <li className="nav-item">
                   <button
                     className="donate-btn"
-                    onClick={closeNavbar}
                     onClick={() => navigate("#donate")}
                   >
                     Donate

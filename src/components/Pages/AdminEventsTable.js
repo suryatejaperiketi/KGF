@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import msgicon from "../../assets/msgicon.png";
 import { IoMdDownload } from "react-icons/io";
@@ -8,7 +7,7 @@ import whatsappIcon from "../../assets/whatsApp-icon.png";
 import "../Styles/AdminEventsTable.css";
 
 const AdminEventsTable = () => {
-  const navigate = useNavigate();
+
   const [showFilter, setShowFilter] = useState(false);
   const [showLocationFilter, setShowLocationFilter] = useState(false);
   const [showDateFilter, setShowDateFilter] = useState(false);
