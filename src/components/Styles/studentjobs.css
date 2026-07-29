@@ -1,0 +1,135 @@
+.student-section {
+  padding: 20px 0;
+  background: #fff;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.jobs-apptra {
+  display: flex;
+  gap: 10px;
+  background: #fff3e3;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.student-job-card {
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  background: #fff;
+  padding: 14px 18px;
+  height: auto;
+}
+
+/* top section */
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.job-left h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.salary {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.company {
+  font-size: 15px;
+  margin: 0;
+}
+
+.job-logo img {
+  width: 130px;
+}
+
+.job-middle {
+  margin-top: 4px;
+  text-align: left;
+}
+
+.job-middle p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.job-info {
+  margin: 8px 0;
+
+
+}
+.content-jsb{
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 2px solid #dcdcdc;
+  border-top: 2px solid #dcdcdc;
+  justify-content: space-between;   
+}
+
+.job-info span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+}
+
+
+.job-bottom {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.job-bottom button {
+  background: #08b113;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.jobs-apptra div {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.active-tab {
+  background: #fff;
+  font-weight: 600;
+}
+
+.jobs-apptra h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+  .job-top {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .job-logo img {
+    width: 70px;
+  }
+
+  .job-left h4 {
+    font-size: 18px;
+  }
+}

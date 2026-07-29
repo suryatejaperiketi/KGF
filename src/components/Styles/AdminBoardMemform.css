@@ -1,0 +1,113 @@
+
+/* .kgf-admin-donor-title h3 {
+  color: #7b5825;
+} */
+
+.kgf-admin-brdmemform-section {
+    padding: 20px 5px;
+    background-color: #fff;
+}
+
+.kgf-admin-brdmemform-section h2 {
+    color: #AF7E36;
+}
+.kgf-admin-donor-close-btn {
+    text-align: end;
+    padding: 5px 20px 0px 0px;
+}
+
+.kgf-admin-donor-close-btn button {
+    border: none;
+    border-radius: 50%;
+    background-color: #AF7E36;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 2px 10px;
+}
+
+.kgf-admin-donor-grid-container {
+
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px auto;
+  gap: 30px;
+}
+
+.kgf-admin-donor-form-label {
+  display: block;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.kgf-admin-brdmem-form-control {
+  width: 100%;
+  padding: 8px;
+  gap: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #a79c9c;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.kgf-admin-brdmem-form-control:focus {
+  outline: none;
+  border: 1px solid #7b5825;
+  box-shadow: 0 0 5px #7b5825;
+}
+
+.kgf-admin-donor-required {
+  color: red;
+  padding: 5px;
+}
+
+.kgf-admin-donor-radio-group {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.kgf-admin-donor-radio-group label {
+  display: inline-flex;
+  align-items: center;
+  color: black;
+  font-weight: normal;
+  padding: 5px;
+}
+
+.kgf-admin-donor-radio-group input {
+  margin-right: 4px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.kgf-admin-donor-dates-time-flex {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.kgf-admin-donor-dates-time-flex > div {
+  flex: 1;
+}
+
+.kgf-admin-donor-submit-btn {
+    padding: 10px;
+}
+   
+
+.add-member-btn button {
+    padding: 6px 17px;
+    background-color: #029F0D;
+    color: #ffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+
+}

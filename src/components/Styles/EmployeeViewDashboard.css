@@ -1,0 +1,144 @@
+.dash-emp-section {
+  width: 100%;
+}
+
+.dash-emp-title {
+  color: #000;
+}
+
+.dash-emp-header {
+  width: 95%;
+  margin: 10px auto;
+  background-color: #fff3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.dash-emp-view-flex-container {
+  max-width: 98%;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.dash-emp-view-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.dash-emp-view-trainer h5 {
+  font-size: 30px;
+}
+
+.dash-emp-view-resp button {
+  padding: 3px 30px;
+  border: none;
+  background-color: #211aeb;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.dash-emp-view-short button {
+  padding: 3px 20px;
+  border: 1.2px solid #029f0d;
+  border-radius: 5px;
+  color: #029f0d;
+  background: transparent;
+  font-weight: 500;
+}
+
+.dash-emp-view-rej button {
+  padding: 3px 20px;
+  border: 1.2px solid #ff0200;
+  border-radius: 5px;
+  color: #ff0200;
+  background: transparent;
+  font-weight: 500;
+}
+
+.dash-emp-view-flex-2 {
+  max-width: 95%;
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.dash-emp-check-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.dash-emp-check-list input {
+  width: 18px;
+  height: 18px;
+}
+
+.dash-emp-send-btn button {
+  background-color: #d9d9d9;
+  font-weight: 700;
+  font-size: 19px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 23px;
+}
+
+.dash-emp-short-btn button {
+  border: 1.2px solid #333;
+  background: transparent;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.dash-emp-rej-btn button {
+  border: 1.2px solid #333;
+  background: transparent;
+  padding: 8px 30px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.dash-emp-search-inp {
+  border: 1.3px solid #333;
+  border-radius: 5px;
+}
+
+.dash-emp-search-inp input {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.dash-emp-search-inp button {
+  border: none;
+  background-color: #d9d9d9;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.dash-emp-view-btn {
+  padding: 2px 15px;
+  border: none;
+  background-color: #7b5825;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+}

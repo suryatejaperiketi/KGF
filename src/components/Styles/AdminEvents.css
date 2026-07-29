@@ -1,0 +1,168 @@
+.kgf-admin-event-heading h3 {
+    color: #7B5825;
+}
+
+.kgf-admin-event-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px auto;
+    border: 1.5px solid;
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+
+.kgf-admin-event-ckeckbox {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.kgf-admin-event-ckeckbox input {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+
+
+.kgf-admin-event-send-btn button {
+    padding: 0px 15px;
+    border: none;
+    background-color: #7B5825;
+    color: #ffff;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.kgf-admin-event-search {
+    border: 1.5px solid;
+    border-radius: 10px;
+    padding: 2px;
+
+
+}
+
+.kgf-admin-event-search input {
+    border: none;
+    padding: 2px 20px;
+    width: 250px;
+    outline: none;
+    background: transparent;
+}
+
+.kgf-admin-event-search button {
+    padding: 2px 16px;
+    border: none;
+    background-color: #211AEB;
+    color: #ffff;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.kgf-admin-event-download button {
+    padding: 2px 15px;
+    border: none;
+    background-color: #AF7E36;
+    color: #ffff;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.kgf-admin-event-delete button {
+    padding: 2px 15px;
+    border: none;
+    background-color: #EA4335;
+    color: #ffff;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.kgf-admin-event-container {
+    max-width: 90%;
+    border: 1.5px solid;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.kgf-admin-event-add-btn {
+    text-align: right;
+    max-width: 97%;
+}
+
+.kgf-admin-event-add-btn button {
+    padding: 2px 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #010088;
+    color: #ffff;
+    font-weight: 500;
+}
+
+.kgf-admin-event-data {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.kgf-admin-event-data-checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.kgf-admin-event-data-checkbox p {
+    text-align: start;
+    margin-left: 35px;
+    
+}
+
+.kgf-admin-event-preview-btn {
+    padding: 10px 40px 0px 0px;
+}
+
+.kgf-admin-event-preview-btn button {
+    padding: 8px 8px;
+    border: 1.5px solid #211AEB;
+    color: #211AEB;
+    background: transparent;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.kgf-admin-event-card-data {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.kgf-admin-event-responses {
+    position: relative;
+    left: 35%;
+}
+
+.kgf-admin-event-responses button {
+    padding: 2px 15px;
+    border: 1.5px solid #92400E;
+    color: #92400E;
+    background: transparent;
+    border-radius: 15px; 
+    font-weight: 500;
+}
+
+.kgf-admin-event-close button {
+    padding: 3px 18px;
+    border: none;
+    background-color: #ED3A3A;
+    color: #ffff;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.kgf-admin-event-close p {
+    font-weight: 400;
+}

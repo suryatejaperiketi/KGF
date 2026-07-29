@@ -1,0 +1,16 @@
+.kgf-file-upload {
+  text-align: end;
+}
+
+.kgf-form-upload {
+  background-color: white;
+  width: 50%;
+  margin-top: 10px;
+  font-size: 11px;
+  padding: 10px 8px;
+}
+
+.kgf-business-occupation {
+    padding: 15px;
+    margin-top: 25px;
+}

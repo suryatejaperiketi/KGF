@@ -1,0 +1,111 @@
+.collegesschools {
+  padding: 20px;
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+}
+
+.clgsclbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efe3cf;
+  border: 1px solid #b7843f;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.schhead,
+.clghead {
+  width: 50%;
+  text-align: center;
+  padding: 14px 0;
+  cursor: pointer;
+}
+
+.schhead h4,
+.clghead h4 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.active-tab {
+  background-color: #efe3cf;
+  color: #8b5e1a;
+}
+
+.top-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clg-sclsearch {
+  position: relative;
+  width: 320px;
+}
+
+.clg-sclsearch input {
+  width: 100%;
+  padding: 10px 15px 10px 35px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 13px;
+  color: #555;
+}
+
+.addclg {
+  background-color: #8b5e1a;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+thead {
+  background-color: #d2b16c;
+}
+
+thead th {
+  padding: 14px;
+  text-align: center;
+  font-weight: 600;
+  color: black;
+}
+
+tbody td {
+  padding: 14px;
+  text-align: center;
+  border: 1px solid #ccc;
+  /* background-color: #f8f8f8; */
+}
+

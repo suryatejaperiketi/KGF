@@ -1,0 +1,57 @@
+.admin-dashboard-section {
+  padding: 20px;
+  border: 1px solid #7B5825;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.admin-dh-title {
+  font-size: 28px;
+  color: #7B5825;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.admin-dashboard-section .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.admin-dh-card {
+  width: 200px;
+  min-height: 180px;
+  grid-template-columns: repeat(3, 1fr);
+  background: #ffffff;
+  border: 1px solid #c4944d;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.admin-dh-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.admin-dh-card-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #a87322;
+  margin: 0;
+}
+
+
+.admin-dh-card-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a87322;
+  margin-top: 8px;
+}

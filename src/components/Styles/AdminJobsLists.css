@@ -1,0 +1,205 @@
+.admin-jobslist-section {
+  width: 100%;
+}
+
+.admin-jobslist-section h2 {
+  color: #7b5825;
+}
+
+.admin-jobslist-total {
+  position: relative;
+  left: 38%;
+}
+
+.kgf-admin-jobslist-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px auto;
+  border: 1.5px solid;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.kgf-admin-jobslist-checkbox {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kgf-admin-jobslist-checkbox input {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+
+.kgf-admin-jobslist-send-btn button {
+  padding: 0px 15px;
+  border: none;
+  background-color: #7b5825;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.kgf-admin-jobslist-search {
+  border: 1.5px solid;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.kgf-admin-jobslist-search input {
+  border: none;
+  padding: 2px 20px;
+  width: 250px;
+  background: transparent;
+  outline: none;
+}
+
+.kgf-admin-jobslist-search button {
+  padding: 2px 16px;
+  border: none;
+  background-color: #211aeb;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.kgf-admin-jobslist-download button {
+  padding: 2px 15px;
+  border: none;
+  background-color: #af7e36;
+  color: #ffff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.kgf-admin-jobslist-delete button {
+  padding: 2px 15px;
+  border: none;
+  background-color: #ea4335;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.admin-jobslist-header {
+  width: 95%;
+  margin: 10px auto;
+  background-color: #d8bb79;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.admin-jobslist-left-arrow {
+  font-size: 25px;
+  background-color: #7b5825;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  right: 44%;
+  cursor: pointer;
+}
+
+.admin-jobslist-header h4 {
+  color: #fff;
+}
+
+.admin-jobslist-grid {
+  width: 95%;
+  margin:10px auto;
+  border: 1.5px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.admin-jobslist-grid .row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.admin-jobslist-info p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.admin-jobslist-info {
+  padding: 20px;
+}
+
+.admin-jobslist-checkbox {
+  margin-top: -40px;
+}
+
+.admin-jobslist-checkbox input {
+  width: 20px;
+  height: 20px;
+}
+
+.admin-jobslist-preview-btn {
+        margin-top: -40px;
+}
+
+.admin-jobslist-preview-btn button {
+  border: 1.2px solid #211aeb;
+  color: #211aeb;
+  padding: 1px 8px;
+  background: transparent;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.admin-jobslist-approved-btn button {
+  border: 1.2px solid #029f0d;
+  color: #029f0d;
+  padding: 1px 8px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.admin-jobslist-responses-btn button {
+  border: 1.2px solid #211aeb;
+  color: #211aeb;
+  padding: 0px 10px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.admin-jobslist-shortlist-btn button {
+  border: 1.2px solid #029f0d;
+  color: #029f0d;
+  padding: 0px 17px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.admin-jobslist-reject-btn button {
+  border: 1.2px solid #ff0000;
+  color: #ff0000;
+  padding: 0px 17px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.admin-jobslist-dates button {
+  border: none;
+  padding: 1px 18px;
+  background: #27b81c;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.admin-jobslist-dates p {
+    white-space: nowrap;
+}
+
+.admin-jobslist-dates {
+    margin-bottom: -30px;
+}

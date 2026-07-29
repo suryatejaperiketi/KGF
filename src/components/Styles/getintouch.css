@@ -1,0 +1,145 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    padding: 10px;
+}
+
+/* .getintouch-section {
+    width: 400px;
+    background: #e9e5e0;
+    padding: 20px;
+    top: 60px;
+    border-radius: 25px;
+    position: relative;
+    max-height: 85vh;   
+    overflow-y: auto;
+} */
+
+ .getintouch-section label {
+        text-align: left !important;
+        width: 100%;
+        font-size: small;
+        font-weight: 600;
+    }
+
+.getintouch-section {
+    width: 100%;
+    max-width: 400px;
+    background: #e9e5e0;
+    position: relative;
+    top: 55px;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+  
+ .getintouch-section {
+        width: 100%;
+        top: 90px;
+        max-height: 65vh;
+        overflow-y: auto;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    
+    .getintouch-section label {
+        text-align: left !important;
+        width: 100%;
+        font-weight: 600;
+    }
+}
+
+
+.getintouch-section input,
+.getintouch-section select,
+.getintouch-section textarea {
+    border: 1px solid #d8a62a !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.getintouch-title {
+    color: #FF0000;
+    font-size: large;
+}
+
+.getintouch-para {
+    color: #000000;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.close-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #d8a62a;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.getintouch-section input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+.submit-btn {
+    background: #d8a62a;
+    border: none;
+    padding: 10px;
+    font-size: small;
+    border-radius: 8px;
+}
+
+@media(min-width:992px) {
+    .getintouch-section label {
+        text-align: left !important;
+        width: 100%;
+        font-size: small;
+        font-weight: 600;
+    }
+}
+
+.getintouch-img {
+    cursor: pointer;
+}
+
+.getintouch-section::-webkit-scrollbar {
+    width: 6px;
+}
+
+.getintouch-section::-webkit-scrollbar-thumb {
+    background: #d8a62a;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .getintouch-section {
+        width: 80%;
+        max-width: 750px;
+        padding: 30px;
+        border-radius: 25px;
+        top: 40px;
+    }
+}

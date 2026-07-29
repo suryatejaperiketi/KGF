@@ -1,0 +1,158 @@
+.aboutus-subheading {
+  color: #7b5825;
+  font-size: 18px;
+  display: flex;
+  font-weight: 700;
+}
+
+.aboutus-btn:hover {
+  background-color: #d6a84b;
+  color: #fff;
+}
+
+.spon-icon {
+  background-color: #FFF3E3;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px 8px 0 0;
+
+}
+
+.spon-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.about-span {
+  color: #000;
+  font-weight: 550;
+}
+
+
+.aboutus-info-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  border: 4px solid #edc473;
+  transition: transform 0.3s ease;
+}
+
+.aboutus-info-card:hover {
+  transform: translateY(-5px);
+}
+
+.aboutus-info-card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #061657;
+  display: inline-block;
+  border-bottom: 1px solid #061657;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+.aboutus-intro-text {
+  font-size: 19px;
+  font-weight: 450;
+  line-height: 1.75;
+  color: #000;
+  text-align: left;
+  max-width: 100%;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+
+  .sponserheading {
+    font-size: 28px;
+    color: #7B5825 !important;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 1px solid #7B5825;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sponserheading {
+    font-size: 23px;
+    color: #7B5825 !important;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 1px solid #7B5825;
+    margin-bottom: 8px;
+  }
+  .aboutus-spon-card {
+    margin-bottom: 30px !important;
+  }
+  .aboutus-section{
+    padding: 30px 20px;
+  }
+}
+
+.sponsership-section {
+  /* background-color: #fdf6ea;  */
+  padding: 60px 20px;
+}
+
+.sponsership-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.sponsership-section>p {
+  font-size: 15px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+
+.aboutus-spon-card {
+  background: #ffffff;
+  border: 1.5px solid #f1c27b;
+  border-radius: 10px;
+  padding: 0;
+  width: 100%;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* important */
+}
+
+.aboutus-spon-card p {
+  font-size: 15px;
+  color: #333;
+  padding: 10px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.sponserpara {
+  font-size: 16px;
+  color: #7B5825 !important;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 0;
+  margin-top: 10px;
+}
+
+@media (min-width:768px), (max-width:991px) {
+.aboutus-section{
+  padding: 40px 20px;
+}
+}
+
+.aboutus-card img {
+  filter: drop-shadow(0 0 3px #000) drop-shadow(0 0 1px #000);
+}

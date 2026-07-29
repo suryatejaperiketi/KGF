@@ -1,0 +1,52 @@
+.admin-donar-view-container {
+  width: 90%;
+  min-height: 320px;
+  margin: 20px auto;
+  background-color: #D8BB79;
+  padding: 40px 50px;
+  text-align: justify;
+  position: relative;
+  border-radius: 2px;
+}
+
+.admin-donar-view-close-btn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 38px;
+  height: 38px;
+  background-color: #AF7E36;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.admin-donar-view-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px 80px;
+  margin-top: 40px;
+}
+
+.admin-donar-view-detail-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.admin-donar-view-label {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  min-width: 190px;
+}
+
+.admin-donar-view-value {
+  font-size: 18px;
+  color: black;
+}

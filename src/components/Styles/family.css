@@ -1,0 +1,160 @@
+.family-tree-sec {
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+.family-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700
+}
+
+.scroll-row {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+
+.scroll-track {
+  display: flex;
+  gap: 25px;
+  width: max-content;
+}
+
+
+.family-card {
+  min-width: 220px;
+  background: #f4f0e6;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  flex-shrink: 0;
+  transition: 0.3s;
+}
+
+.family-card:hover {
+  transform: translateY(-8px);
+}
+
+
+.image-wrapper img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.family-card figcaption {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.family-card figcaption p {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.left-scroll .scroll-track {
+  animation: scrollLeft 25s linear infinite;
+}
+
+
+.right-scroll .scroll-track {
+  animation: scrollRight 25s linear infinite;
+}
+
+
+.scroll-row:hover .scroll-track {
+  animation-play-state: paused;
+}
+
+/* KEYFRAMES */
+@keyframes scrollLeft {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .family-title {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700
+
+  }
+
+  .family-card {
+    min-width: 170px;
+    padding: 10px;
+  }
+
+  .image-wrapper img {
+    height: 170px;
+  }
+
+  .scroll-track {
+    gap: 15px;
+  }
+
+  .left-scroll .scroll-track,
+  .right-scroll .scroll-track {
+    animation-duration: 18s;
+  }
+
+  .family-tree-sec {
+    padding: 20px 0;
+    overflow: hidden;
+    /* margin-top: 50px; */
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .family-tree-sec {
+    padding: 30px 0;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+}
+
+@media(max-width:540px) {
+  .family-tree-sec {
+    padding: 50px 0;
+    overflow: hidden;
+    /* margin-top: 30px; */
+  }
+}
+
+@media(max-width:480px) {
+  .family-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: 700
+
+  }
+  
+}

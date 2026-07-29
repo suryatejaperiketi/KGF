@@ -1,0 +1,12 @@
+.blood-group-graph-div{
+    gap: 20px;
+    padding: 20px;  
+}
+
+.blood-group-graph-div img{
+    height: 230px;
+    width: auto;
+}
+.blood-group-section h2{
+    padding-bottom: 20px;
+}

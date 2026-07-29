@@ -1,0 +1,252 @@
+.admin-events-table-container {
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.admin-events-table-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ab7706;
+}
+
+.admin-events-table-total {
+  position: relative;
+  left: 38%;
+}
+
+.admin-events-table-total p {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.kgf-admin-events-table-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px auto;
+  border: 1.5px solid;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.kgf-admin-events-table-ckeckbox {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kgf-admin-events-table-ckeckbox input {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+
+.kgf-admin-events-table-send-btn button {
+  padding: 0px 15px;
+  border: none;
+  background-color: #7b5825;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.kgf-admin-events-table-search {
+  border: 1.5px solid;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.kgf-admin-events-table-search input {
+  border: none;
+  padding: 2px 20px;
+  width: 250px;
+  background: transparent;
+  outline: none;
+}
+
+.kgf-admin-events-table-search button {
+  padding: 2px 16px;
+  border: none;
+  background-color: #211aeb;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.kgf-admin-events-table-download button {
+  padding: 2px 15px;
+  border: none;
+  background-color: #af7e36;
+  color: #ffff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.kgf-admin-events-table-delete button {
+  padding: 2px 15px;
+  border: none;
+  background-color: #ea4335;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.kgf-admin-event-container {
+  max-width: 90%;
+  border: 1.5px solid;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.kgf-admin-events-table-add-btn {
+  text-align: end;
+  max-width: 97%;
+}
+
+.kgf-admin-events-table-add-btn button {
+  padding: 2px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #010088;
+  color: #ffff;
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-events-table-header th {
+  background-color: #d8bb79;
+  padding: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+td {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+tr {
+  border: 1px solid #333;
+}
+
+/* tbody tr:hover {
+  background: #faf7ef;
+} */
+
+.kgf-admin-view-btn {
+  border: none;
+  padding: 5px 15px;
+  background-color: #7b5825;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.admin-events-filter-icon {
+    cursor: pointer;
+}
+
+.admin-events-filter-popup {
+  position: absolute;
+  top: 3px;
+  /* bottom: 85%; */
+  right: 105px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 10000;
+}
+
+.admin-events-filter-box {
+  background: #d9d9d9;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.admin-events-filter-box span {
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.admin-events-filter-box p {
+  border-bottom: 1.5px solid #949191;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.admin-events-location-filter-popup {
+  padding: 15px 17px;
+  position: absolute;
+  background-color: #d9d9d9;
+  color: #000;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  right: 23%;
+  top: 3px;
+  /* bottom: 103%; */
+  z-index: 10000;
+}
+
+.admin-events-location-filter-box input {
+  width: 100px;
+  margin: 6px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.admin-events-location-filter-box span {
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  font-weight: 600;
+}
+
+.admin-events-date-filter-popup {
+  padding: 10px 17px;
+  position: absolute;
+  background-color: #d9d9d9;
+  color: #000;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  right: 47%;
+  top: 13%;
+  z-index: 10000;
+
+  /* border: 1px solid; */
+  /* right: 21%;
+  top: 51%; */
+}
+
+.admin-events-date-filter-box span {
+  cursor: pointer;
+  position: absolute;
+  top: 1px;
+  left: 6px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.admin-events-date-filter-box input {
+  width: 130px;
+  margin: 6px;
+  border-radius: 4px;
+  border: none;
+  padding: 2px 8px;
+  outline: none;
+}

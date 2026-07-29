@@ -1,0 +1,45 @@
+.stu-filters-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.stu-filter-input {
+    padding: 10px;
+    width: 220px;
+    height: 42px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+.job-apply-btn{
+    background-color: #211AEB;
+    color: #fff;
+    width: 100%;
+    height: 42px;
+    font-weight: 500;
+    border-color: transparent;
+    border-radius: 8px;
+    max-width: 120px;
+    padding: 5px;
+}
+
+.job-delete-btn{
+    background-color:#FF0000;
+    color: #fff;
+    width: 100%;
+    height: 42px;
+    font-weight: 500;
+    border-color: transparent;
+    border-radius: 8px;
+    max-width: 120px;
+    padding: 5px;
+
+}

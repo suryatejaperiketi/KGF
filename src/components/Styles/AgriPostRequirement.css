@@ -1,0 +1,73 @@
+.kgf-agri-postreq-container {
+  /* padding: 40px 20px; */
+  width: 90%;
+  margin: 20px auto;
+}
+
+.kgf-agri-postreq-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.kgf-agri-postreq-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.kgf-agri-postreq-form-label {
+  width: 200px;
+  font-weight: 500;
+}
+
+.kgf-agri-postreq-form-label-1 {
+   width: 200px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.kgf-agri-postreq-inputs {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+}
+
+.kgf-agri-postreq-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.kgf-agri-postreq-btn button {
+  padding: 8px 50px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  background-color: #DEA742;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .kgf-agri-postreq-form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .kgf-agri-postreq-form-label {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .kgf-agri-postreq-inputs {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .kgf-agri-postreq-btn button {
+    width: 100%;
+  }
+}

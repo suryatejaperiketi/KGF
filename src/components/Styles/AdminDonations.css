@@ -1,0 +1,282 @@
+.admin-donation-container {
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.admin-donation-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #7b5825;
+}
+
+.admin-donation-total {
+  position: relative;
+  left: 38%;
+}
+
+.admin-donation-total p {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.kgf-admin-donation-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px auto;
+  border: 1.5px solid;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.kgf-admin-donation-checkbox {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kgf-admin-donation-checkbox input {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+
+.kgf-admin-donation-send-btn button {
+  padding: 0px 15px;
+  border: none;
+  background-color: #7b5825;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.kgf-admin-donation-search {
+  border: 1.5px solid;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.kgf-admin-donation-search input {
+  border: none;
+  padding: 2px 20px;
+  width: 250px;
+  background: transparent;
+  outline: none;
+}
+
+.kgf-admin-donation-search button {
+  padding: 2px 16px;
+  border: none;
+  background-color: #211aeb;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.kgf-admin-donation-download button {
+  padding: 2px 15px;
+  border: none;
+  background-color: #af7e36;
+  color: #ffff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.kgf-admin-donation-delete button {
+  padding: 2px 15px;
+  border: none;
+  background-color: #ea4335;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.kgf-admin-event-container {
+  max-width: 90%;
+  border: 1.5px solid;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.kgf-admin-donation-add-btn {
+  text-align: end;
+  max-width: 97%;
+}
+
+.kgf-admin-donation-add-btn button {
+  padding: 2px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #010088;
+  color: #ffff;
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.admin-donation-header th {
+  background-color: #d8bb79;
+  padding: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+td {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+tr {
+  border: 1px solid #333;
+}
+
+/* tbody tr:hover {
+  background: #faf7ef;
+} */
+
+.admin-donation-filter-icon {
+  cursor: pointer;
+}
+
+.admin-donation-filter-popup {
+  position: absolute;
+  top: 5px;
+  /* bottom: 85%; */
+  right: 9%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 10000;
+}
+
+.admin-donation-filter-box {
+  background: #d9d9d9;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.admin-donation-filter-box span {
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.admin-donation-filter-box p {
+  border-bottom: 1.5px solid #949191;
+  cursor: pointer;
+  width: fit-content;
+  margin: 8px auto;
+}
+
+.admin-donation-location-filter-popup {
+  padding: 15px 17px;
+  position: absolute;
+  background-color: #d9d9d9;
+  color: #000;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  right: 24%;
+  top: 5px;
+  /* bottom: 103%; */
+  z-index: 10000;
+
+  /* right: 21%;
+  top: 25%; */
+}
+
+.admin-donation-location-filter-box input {
+  width: 100px;
+  margin: 6px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.admin-donation-location-filter-box span {
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  font-weight: 600;
+}
+
+.admin-donation-amnt-filter-popup {
+  padding: 10px 17px;
+  position: absolute;
+  background-color: #d9d9d9;
+  color: #000;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  right: 462px;
+  top: 75px;
+  /* bottom: 91%; */
+  z-index: 10000;
+
+  /* border: 1px solid; */
+  /* right: 21%;
+  top: 40%; */
+}
+
+.admin-donation-amnt-filter-box span {
+  cursor: pointer;
+  position: absolute;
+  top: 1px;
+  left: 6px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.admin-donation-amnt-filter-box input {
+  width: 100px;
+  margin: 6px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.admin-donation-date-filter-popup {
+  padding: 10px 17px;
+  position: absolute;
+  background-color: #d9d9d9;
+  color: #000;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  right: 36%;
+  top: 25%;
+  z-index: 10000;
+
+  /* border: 1px solid; */
+  /* right: 21%;
+  top: 51%; */
+}
+
+.admin-donation-date-filter-box span {
+  cursor: pointer;
+  position: absolute;
+  top: 1px;
+  left: 6px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.admin-donation-date-filter-box input {
+  width: 130px;
+  margin: 6px;
+  border-radius: 4px;
+  border: none;
+  padding: 2px 8px;
+  outline: none;
+}

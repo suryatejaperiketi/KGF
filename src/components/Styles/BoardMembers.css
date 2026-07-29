@@ -1,0 +1,292 @@
+.board-section {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1a1a1a;
+  padding-left: 30px;
+  position: relative;
+  top: -40px;
+  padding-right: 30px;
+}
+ 
+.board-title {
+  font-weight: 700;
+  color: #7B5825;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-right: 10px;
+}
+ 
+.board-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #7B5825;
+  border-radius: 0 0 10px 10px;
+}
+ 
+ 
+.board-card {
+  position: relative;
+  background: #fff;
+ 
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 18px;
+  max-width: 720px;
+  width: 100%;
+  overflow: hidden;
+  margin-left: 20px;
+}
+ 
+.board-card:hover {
+ 
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+}
+ 
+ 
+.board-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+ 
+ 
+.board-content {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.board-text {
+  padding-right: 60px;
+}
+ 
+.board-name {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+}
+ 
+.board-title1 {
+  font-size: 18px;
+  color: #544D4D;
+  font-weight: 600;
+}
+ 
+.board-title2 {
+  font-size: 16px;
+  color: #544D4D;
+  font-weight: 500;
+}
+ 
+ 
+.board-icons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+ 
+.board-icons a {
+  color: #061657;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+ 
+.board-icons a:hover {
+  color: green;
+}
+ 
+ 
+@media (min-width: 1200px) {
+  .board-image {
+    width: 210px;
+    height: 210px;
+  }
+}
+ 
+ 
+@media (max-width: 1199px) {
+  .board-card {
+    max-width: 650px;
+    margin-left: 15px;
+  }
+ 
+  .board-image {
+    width: 180px;
+    height: 180px;
+  }
+ 
+  .board-name {
+    font-size: 21px;
+  }
+}
+ 
+ 
+@media (max-width: 991px) {
+  .board-card {
+    flex-direction: row;
+    text-align: left;
+    max-width: 550px;
+    margin-left: 10px;
+  }
+ 
+  .board-image {
+    width: 170px;
+    height: 170px;
+  }
+}
+ 
+@media (max-width: 930px) {
+  .board-card {
+    display: flex !important;
+    flex-direction: column !important;  
+    align-items: center !important;
+    text-align: center;
+    padding: 16px;
+    margin: auto;
+  }
+ 
+  .board-image {
+    order: 1;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+   
+  }
+ 
+  .board-icons {
+    order: 3;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-bottom: 10px;
+    justify-content: center;
+   
+  }
+ 
+ .board-content {
+  text-align: center;
+}
+  .board-text {
+    padding-right: 0;
+    width: 100%;
+  }
+  .board-title {
+    font-size: 19px;
+  }
+}
+ 
+@media (max-width: 767px) {
+ 
+  .board-card {
+    display: flex !important;
+    flex-direction: column !important;  
+    align-items: center !important;
+    text-align: center;
+    padding: 16px;
+    margin: auto;
+  }
+ 
+  .board-image {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+  .board-icons {
+  order: 3;
+  position: relative;
+  top: 0;
+  right: 0;
+  display: flex;       
+  justify-content: center; 
+  align-items: center;     
+  gap: 10px;             
+  width: 100%;
+}
+ 
+  .board-content {
+    order: 2;
+    width: 100%;              
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .board-text {
+    padding-right: 0;
+    width: 100%;
+  }
+  .board-title {
+    font-size: 19px;
+  }
+}
+ 
+ 
+@media (max-width: 575px) {
+  .board-card {
+    width: 100%;
+    padding: 14px;
+  }
+ 
+  .board-image {
+    width: 160px;
+    height: 160px;
+  }
+ 
+   .board-icons {
+    order: 3;
+    position: relative;
+    top: 0;
+    right: 0;
+    justify-content: center;
+   
+  }
+ 
+}
+ 
+@media screen and (min-width: 360px) and (max-width: 360px) and
+       (min-height: 740px) and (max-height: 740px) {
+       .board-card {
+    width: 100%;
+    padding: 14px;
+  }
+ 
+  .board-image {
+    width: 150px;
+    height: 160px;
+  }
+ 
+  .board-icons a {
+    font-size: 15px;
+  }
+  .board-content {
+    align-items: start;
+  }
+  .board-name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+}
+.board-title1 {
+  font-size: 13px;
+  color: #061657;
+  font-weight: 600;
+}
+.board-title2 {
+  font-size: 12px;
+  color: #555;
+}}
+

@@ -1,0 +1,224 @@
+.dash-emp-section {
+  width: 100%;
+}
+
+.dash-emp-title {
+  color: #000;
+}
+
+.dash-emp-header {
+  width: 95%;
+  margin: 10px auto;
+  background-color: #fff3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.dash-emp-flex-container {
+  max-width: 98%;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.dash-emp-left {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dash-emp-check {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dash-emp-check input {
+  width: 18px;
+  height: 18px;
+  margin: 5px;
+}
+
+.dash-emp-delete-btn button {
+  padding: 1px 12px;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4px #000;
+  border-radius: 5px;
+}
+
+.dash-emp-search {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.dash-emp-search input {
+  border: none;
+  padding: 2px 20px;
+  width: 350px;
+  background: transparent;
+  outline: none;
+}
+
+.dash-emp-post-btn {
+  margin-right: 25px;
+}
+
+.dash-emp-post-btn button {
+  padding: 2px 15px;
+  border: none;
+  background-color: #d4ad5a;
+  color: #ffff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.dash-emp-left-arrow {
+  font-size: 25px;
+  background-color: #000;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  right: 44%;
+  cursor: pointer;
+}
+
+.dash-emp-header h4 {
+  color: #7b5825;
+}
+
+.dash-emp-grid {
+  width: 95%;
+  margin: 10px auto;
+  border: 1.5px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.dash-emp-grid .dash-emp-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* .dash-emp-info p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+.dash-emp-info {
+  display: flex;
+}
+.dash-emp-role {
+  padding-left: 15px;
+}
+
+.dash-emp-role h5 {
+    word-wrap: normal;
+}
+
+.dash-emp-checkbox input {
+  width: 18px;
+  height: 18px;
+}
+
+.dash-emp-preview-btn {
+  max-width: 100%;
+  margin-top: -40px;
+  position: absolute;
+  right: 8%;
+}
+
+.dash-emp-preview-btn button {
+  border: 1.2px solid #211aeb;
+  color: #211aeb;
+  padding: 1px 8px;
+  background: transparent;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.dash-emp-approved{
+  color: #029f0d;
+  margin-right: 26px;
+  font-weight: 500;
+}
+
+.dash-emp-reject {
+  color: #ff0000;
+  margin-right: 26px;
+  font-weight: 500;
+}
+
+.dash-emp-responses-btn button {
+  border: 1.2px solid #211aeb;
+  color: #211aeb;
+  padding: 0px 10px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.dash-emp-shortlist-btn button {
+  border: 1.2px solid #029f0d;
+  color: #029f0d;
+  padding: 0px 17px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.dash-emp-reject-btn button {
+  border: 1.2px solid #ff0000;
+  color: #ff0000;
+  padding: 0px 17px;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.dash-emp-dates button {
+  border: none;
+  padding: 1px 18px;
+  background: #27b81c;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.dash-emp-dates p {
+  white-space: nowrap;
+}
+
+.dash-emp-dates {
+  margin-bottom: -30px;
+}
+
+.dash-emp-all-jobs {
+  max-width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px auto -15px auto;
+}
+
+.dash-emp-all-jobs p {
+  border-bottom: 1px solid #000;
+}
+
+.dash-emp-all-jobs span {
+  background-color: #d9d9d9;
+  padding: 4px 10px;
+  margin-bottom: 12px;
+}
